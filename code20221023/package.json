@@ -1,5 +1,5 @@
 {
-  "name": "code20221230",
+  "name": "code20221023",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,24 +12,18 @@
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6",
     "@react-three/fiber": "^8.8.10",
     "@react-three/drei": "^9.36.0",
-    "@react-spring/web": "9.1.1",
-    "@react-three/flex": "^1.0.0",
-    "@types/three": "0.137.0",
-    "three": "^0.145.0",
-    "styled-components": "^5.3.6",
-    "@pmndrs/branding": "^0.0.8"
+    "three": "^0.145.0"
   },
   "devDependencies": {
-    "@chakra-ui/icons": "^1.1.1",
-    "@chakra-ui/react": "^1.7.2",
-    "@types/node": "18.7.18",
+    "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "eslint": "8.23.1",
+    "eslint": "8.26.0",
     "eslint-config-next": "12.3.1",
-    "typescript": "4.8.3"
+    "typescript": "4.8.4"
   }
 }
