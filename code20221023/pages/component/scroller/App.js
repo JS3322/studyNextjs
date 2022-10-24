@@ -35,12 +35,12 @@ function Pages() {
     const { width } = useThree((state) => state.viewport)
     return (
         <>
-            <Page position={[-width * 1, 0, 0]} urls={['/screen/IMG_9241.PNG', '/screen/IMG_9242.PNG', '/screen/IMG_9243.PNG']} />
-            <Page position={[width * 0, 0, 0]} urls={['/screen/IMG_9244.PNG', '/screen/IMG_9243.PNG', '/screen/IMG_9242.PNG']} />
-            <Page position={[width * 1, 0, 0]} urls={['/screen/IMG_9244.PNG', '/screen/IMG_9243.PNG', '/screen/IMG_9242.PNG']} />
-            <Page position={[width * 2, 0, 0]} urls={['/screen/IMG_9241.PNG', '/screen/IMG_9242.PNG', '/screen/IMG_9243.PNG']} />
-            <Page position={[width * 3, 0, 0]} urls={['/screen/IMG_9244.PNG', '/screen/IMG_9243.PNG', '/screen/IMG_9242.PNG']} />
-            <Page position={[width * 4, 0, 0]} urls={['/screen/IMG_9244.PNG', '/screen/IMG_9243.PNG', '/screen/IMG_9242.PNG']} />
+            <Page position={[-width * 1, 0, 0]} urls={['/screen/temp_11.PNG', '/screen/temp_12.PNG', '/screen/temp_13.PNG']} />
+            <Page position={[width * 0, 0, 0]} urls={['/screen/temp_14.PNG', '/screen/temp_15.PNG', '/screen/temp_11.PNG']} />
+            <Page position={[width * 1, 0, 0]} urls={['/screen/temp_11.PNG', '/screen/temp_12.PNG', '/screen/temp_13.PNG']} />
+            <Page position={[width * 2, 0, 0]} urls={['/screen/temp_14.PNG', '/screen/temp_15.PNG', '/screen/temp_11.PNG']} />
+            <Page position={[width * 3, 0, 0]} urls={['/screen/temp_11.PNG', '/screen/temp_12.PNG', '/screen/temp_13.PNG']} />
+            <Page position={[width * 4, 0, 0]} urls={['/screen/temp_14.PNG', '/screen/temp_15.PNG', '/screen/temp_11.PNG']} />
         </>
     )
 }
@@ -54,12 +54,12 @@ export default function App() {
                         <Pages />
                     </Scroll>
                     <Scroll html>
-                        <h1 style={{ position: 'absolute', top: '20vh', left: '-75vw' }}>Human</h1>
-                        <h1 style={{ position: 'absolute', top: '20vh', left: '25vw' }}>Academy</h1>
-                        <h1 style={{ position: 'absolute', top: '20vh', left: '125vw' }}>Edu</h1>
-                        <h1 style={{ position: 'absolute', top: '20vh', left: '225vw' }}>Clean</h1>
-                        <h1 style={{ position: 'absolute', top: '20vh', left: '325vw' }}>Code</h1>
-                        <h1 style={{ position: 'absolute', top: '20vh', left: '425vw' }}>JS</h1>
+                        {/*<h1 style={{ position: 'absolute', top: '20vh', left: '-75vw' }}>Human</h1>*/}
+                        {/*<h1 style={{ position: 'absolute', top: '20vh', left: '25vw' }}>Academy</h1>*/}
+                        {/*<h1 style={{ position: 'absolute', top: '20vh', left: '125vw' }}>Edu</h1>*/}
+                        {/*<h1 style={{ position: 'absolute', top: '20vh', left: '225vw' }}>Clean</h1>*/}
+                        {/*<h1 style={{ position: 'absolute', top: '20vh', left: '325vw' }}>Code</h1>*/}
+                        {/*<h1 style={{ position: 'absolute', top: '20vh', left: '425vw' }}>JS</h1>*/}
                     </Scroll>
                 </ScrollControls>
                 <Preload />
