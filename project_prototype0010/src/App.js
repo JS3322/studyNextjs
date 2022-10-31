@@ -31,8 +31,11 @@ function Images_position() {
 
 export default function App() {
   return (
+      //Canvas : 자바스크립트 동적 액션을 위한 도화지
     <Canvas gl={{ antialias: false }} dpr={[1, 1.3]}>
-      <Suspense fallback={null}>
+        //Suspense :
+        <Suspense fallback={null}>
+            //ScrollControls :
         <ScrollControls damping={4} pages={3}>
           <Scroll>
             <Images_position />
