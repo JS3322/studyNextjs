@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fafafa;
+    position: fixed;
+}
+
+.graph0001{
+    display:-webkit-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    flex-direction:column-reverse;
+    position:relative;
+    margin:0 auto;
+    padding:0;
+    width:35px;
+    height:40%;
+    background:#e8e8e8;
+    border-radius:3px 3px 0 0;
+    overflow:hidden;
+}
+
+.graph0002{
+    display:-webkit-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    flex-direction:column-reverse;
+    position:relative;
+    margin:0 auto;
+    padding:0;
+    width:35px;
+    height:20%;
+    background:brown;
+    border-radius:3px 3px 0 0;
+    overflow:hidden;
+}
+
+.graph0003{
+    display:-webkit-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    flex-direction:column-reverse;
+    position:relative;
+    margin:0 auto;
+    padding:0;
+    width:35px;
+    height:40%;
+    background:darkblue;
+    border-radius:3px 3px 0 0;
+    overflow:hidden;
+}

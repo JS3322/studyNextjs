@@ -6,7 +6,7 @@ interface CanvasProps {
     height: number;
 }
 
-function App({width, height}: CanvasProps) {
+function Page({width, height}: CanvasProps) {
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     return (
