@@ -1,0 +1,47 @@
+.wrapper{
+	  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	text-align: center;
+
+	
+}
+.complete-wrapper{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border-radius: 200px;
+	background-color: #ddd;
+
+	display: block;
+	box-shadow: 3px 3px 3px #666;
+}
+ p{
+	
+
+	color:rgba(10, 10, 10, 0.70);
+	margin: 5px auto;
+	font-size: 1.4rem;
+
+}
+img{
+	
+	width: 100px;
+
+	color:rgba(10, 10, 10, 0.60);
+	margin: 20% auto auto auto;
+	font-size: 1.4rem;
+	
+}
+
+
+@media screen and (max-width:768px) {
+
+
+
+}
+	
+@media screen and (max-width: 420px) {
+
+}

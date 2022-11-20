@@ -1,0 +1,41 @@
+<!--
+    * @Process: complete
+    * @Project_Name: module
+    * @Package_Name: animation.3d
+    * @Made_By: JS
+    * @The_creation_time: 2021-09-20 오후 3:49:51
+    * @File_Name: index.html
+    * @Version : node v14.15.3
+    * @contents: -
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>3D CSS</title>
+        <link rel="stylesheet" href="3d.css">
+    </head>
+    <body>
+        <div id="box">
+            <div class="top"></div>
+            <div>
+                <span>123</span>
+                    
+                <span>
+                    <i class="tape"></i>
+                </span>
+                <span></span>
+                <span>
+                    <i class="tape"></i>
+                </span>
+            </div>
+        </div>
+        <script>
+            let box = document.getElementById('box');
+            window.onmousemove = function (e) {
+                box.style.transform = "rotateX(-30deg) rotateY("
+                + e.clientX + "deg)"
+            }
+        </script>    
+    </body>
+</html>

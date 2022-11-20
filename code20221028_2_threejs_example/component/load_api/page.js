@@ -10,7 +10,8 @@ function Page() {
 }
 
 export async function dataCheck() {
-    const res = await fetch('https://dummyjson.com/todos/1'
+    // const res = await fetch('https://dummyjson.com/todos/1'
+    const res = await fetch('http://localhost:33223/rps/v002'
     //, {cache: 'no-store'}// = getServerSideProps()
     )
     const data = await res.json()

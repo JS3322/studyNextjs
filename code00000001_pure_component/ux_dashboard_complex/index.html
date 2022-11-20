@@ -1,0 +1,104 @@
+<!--
+    * @Process: complete
+    * @Project_Name: module
+    * @Package_Name: dashboard_complex
+    * @Made_By: JS
+    * @The_creation_time: -
+    * @File_Name: index.html
+    * @Version : -
+    * @contents: dashboard prototype ver20211117
+-->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Dashboard Prototype</title>
+<link href="./css/common.css" rel="stylesheet" type="text/css">
+<link href="./css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="zindex-wrapper" style="display: none">
+  <div class="progress-wrapper"  >
+    <p style="font-weight: bold">40%</p>
+    <p style="font-size: 1.2rem;">contents.mp4</p>
+    <div class="progress-bar"> <span style="width:40%"></span> </div>
+  </div>
+  <div class="complete-wrapper" > <img alt="" src="./image/icon/emoji-wink.svg">
+    <p>Complete!</p>
+  </div>
+</div>
+<header>
+  <div class="container">
+    <div id="menu"><img src="./image/icon/list.svg" style="width:100%" alt="Home"></div>
+    <div id="home"> <a href="./index.html"><img class="logo" src="./image/images/poster_B_header.png" alt="Home" style="width:100%"></a> </div>
+    <div class="p-image"> <img class="btn-logo" src="./image/icon/camera-fill.svg" alt="">
+      <input class="file-upload" type="file" accept="image/*"/>
+    </div>
+    <div class="box">
+      <ul>
+        <li><a >Main</a>
+          <div class="dropdown-content"> <a onClick="#">Test001</a><a onClick="pwchangepage()">Change Password</a> </div>
+        </li>
+        <li><a href="#">MainD1</a>
+          <div class="dropdown-content"> <a onClick="splpage();">Table Marge</a><a onClick="querypage();">Instance View</a> <a onClick="ingestpage();">Instance Detail</a> </div>
+        </li>
+        <li><a href="#">MainD3</a>
+          <div class="dropdown-content"><a onClick="codepage();">Code</a> </div>
+        </li>
+        <li><a href="#">MainD2</a>
+          <div class="dropdown-content"> <a onClick="lhistorypage();">Login History</a> <a onClick="ehistorypage();">Event History</a><a onClick="uregisterpage();">User Register</a> </div>
+        </li>
+      </ul>
+    </div>
+	  
+	  
+	  
+    <div id="login-info">
+      <span>js_k(root)&nbsp;&nbsp;</span>
+		<span class="toggle">
+		 <img src="./image/icon/lightbulb.svg" alt=""><label class="switch">
+        <input type="checkbox" onClick="toggle_bg(this)">
+        <span class="slider round"></span> </label></span>
+		<a href="pages/vr011/vr011.html"> <span class="button-letter">logout</span></a> 
+	  </div>
+  </div>
+</header>
+<menu> <span id="close-menu"> <img src="./image/icon/x-square-fill.svg" alt="close"></span>
+  <div class="container">
+    <div class="box">
+      <ul>
+        <li><a href="./index.html">Main</a></li>
+		    <li><a onClick="#">Book Mark</a></li>
+		    <li><a onClick="pwchangepage()">Change Password</a> </li>
+        <li><a onClick="splpage();">Marge Table</a></li>
+        <li><a onClick="querypage();">Instance View</a></li>
+        <li><a onClick="ingestpage();">Instance Detail</a></li>
+        <li><a onClick="codepage();">Code</a></li>
+        <li><a onClick="lhistorypage();">Login History</a></li>
+        <li><a onClick="ehistorypage();">Event History</a></li>
+        <li><a onClick="uregisterpage();">User Register / Update</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Logout</a> </li>
+      </ul>
+    </div>
+  </div>
+</menu>
+<div id="mainwrapper">
+  <div id ="module-activation"> <span id="page-name">Main</span>
+    <div class="active" id="icvr-act"> mainMenu1</div>
+    <div class="error" id="ics-act"> mainMenu2 </div>
+    <div id="contrabass-act"> mainMenu3</div>
+    <div id="syrup-act"> mainMenu4 </div>
+  </div>
+  <div id="main">
+    <embed src="pages/vr002/vr002.html" width="100%" height="800px" type="text/html" />
+  </div>
+</div>
+</body>
+<!-- test jquery library import-->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'> </script>
+
+<!--  <script src='http:ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'> </script>-->
+<script  src="./js/index.js"></script>
+</html>

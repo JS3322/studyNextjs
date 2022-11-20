@@ -5,7 +5,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/code20221023_width_scroller" />
-      <excludeFolder url="file://$MODULE_DIR$/project_prototype0010" />
       <excludeFolder url="file://$MODULE_DIR$/code20221028_2_threejs_example/styles/backup0000/pagesOut" />
       <excludeFolder url="file://$MODULE_DIR$/code20221028_2_threejs_example/styles/backup0000/pagesOut/scroll" />
     </content>
